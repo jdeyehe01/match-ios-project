@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6BD5AE0E22D2116000881D09 /* MachTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5AE0D22D2116000881D09 /* MachTableViewCell.swift */; };
+		6BD5AE1022D286A800881D09 /* DetailMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5AE0F22D286A800881D09 /* DetailMatchViewController.swift */; };
+		6BD5AE1422D5498500881D09 /* StatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5AE1322D5498500881D09 /* StatTableViewCell.swift */; };
+		6BD5AE1E22D6AC6300881D09 /* LeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5AE1D22D6AC6300881D09 /* LeagueViewController.swift */; };
 		EC446AF222C268440064B1C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC446AF122C268440064B1C5 /* AppDelegate.swift */; };
 		EC446AF722C268440064B1C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC446AF522C268440064B1C5 /* Main.storyboard */; };
 		EC446AF922C268450064B1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC446AF822C268450064B1C5 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		6BD5AE0D22D2116000881D09 /* MachTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MachTableViewCell.swift; path = Football/MachTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		6BD5AE0F22D286A800881D09 /* DetailMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailMatchViewController.swift; path = Football/DetailMatchViewController.swift; sourceTree = SOURCE_ROOT; };
+		6BD5AE1322D5498500881D09 /* StatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatTableViewCell.swift; path = Football/StatTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		6BD5AE1D22D6AC6300881D09 /* LeagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeagueViewController.swift; path = Football/LeagueViewController.swift; sourceTree = SOURCE_ROOT; };
 		EC446AEE22C268440064B1C5 /* football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = football.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC446AF122C268440064B1C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC446AF622C268440064B1C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,11 +64,14 @@
 			children = (
 				EC446AF122C268440064B1C5 /* AppDelegate.swift */,
 				EC446AF522C268440064B1C5 /* Main.storyboard */,
+				6BD5AE1D22D6AC6300881D09 /* LeagueViewController.swift */,
+				6BD5AE0F22D286A800881D09 /* DetailMatchViewController.swift */,
 				EC446AF822C268450064B1C5 /* Assets.xcassets */,
 				EC446AFA22C268450064B1C5 /* LaunchScreen.storyboard */,
 				EC446AFD22C268450064B1C5 /* Info.plist */,
 				EC446B0322C268AB0064B1C5 /* MatchTableViewController.swift */,
 				6BD5AE0D22D2116000881D09 /* MachTableViewCell.swift */,
+				6BD5AE1322D5498500881D09 /* StatTableViewCell.swift */,
 			);
 			path = football;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BD5AE0E22D2116000881D09 /* MachTableViewCell.swift in Sources */,
+				6BD5AE1422D5498500881D09 /* StatTableViewCell.swift in Sources */,
+				6BD5AE1E22D6AC6300881D09 /* LeagueViewController.swift in Sources */,
+				6BD5AE1022D286A800881D09 /* DetailMatchViewController.swift in Sources */,
 				EC446B0422C268AB0064B1C5 /* MatchTableViewController.swift in Sources */,
 				EC446AF222C268440064B1C5 /* AppDelegate.swift in Sources */,
 			);
